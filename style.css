@@ -1,0 +1,134 @@
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	background: #091921
+}
+/*---------navbar-------------*/
+.nav-link
+{
+	color: red;
+}
+
+.profile
+{
+	margin-left: 35%;
+   margin-top: 5%;
+	border-radius: 50%;
+	border: 2px solid #00fff1;
+	box-shadow: 3px 3px 10px 3px red,-3px -3px 10px 3px red;
+	
+}
+/*----------------------about--------------*/
+.about
+{
+	border: 2px solid blue;
+
+	border-radius: 10px;
+	margin-top:5%;
+	text-align: center;
+	
+
+}
+.para
+{
+	color: #00fff1;
+	font-size: 25px;
+	}
+h2
+{
+	color: red;
+}
+h5
+{
+	color: #00fff1;
+}
+/*--------------projects-------------*/
+.heading
+{
+	color:#00fff1;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.project
+{
+	margin-left: 15px;
+	border-radius: 20px;
+
+}
+.card
+{
+	background:#091921 ;	
+}
+/*-----------education---------*/
+.education
+{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 3px 3px 20px 5px red;
+	color: white;
+
+}
+/*-------------contact-------------*/
+ul
+{
+	list-style-type: none;
+	float: right;
+}
+li
+{
+	 
+	   display: inline-block;
+	   font-size: 25px;
+	   padding-right: 10px;
+
+	}
+
+a
+{
+	color: #00fff1;
+	transition: 1s;
+
+}
+a:hover
+{
+	color:white;
+}
+@media(max-width: 900px)
+{
+	.profile
+	{
+		width: 200px;
+		height: 200px;
+		margin-left: 10%;
+	
+	}
+	
+	.para
+	{
+		font-size: 20px;
+
+	}
+
+	h1
+	{
+		font-size: 30px;
+	}
+	h2
+	{
+		font-size: 25px;
+		margin-left: 15%;
+	}
+	img
+	{
+		width: 280px;
+		height: 200px;
+		align-items: center;
+	}
+	
+}
